@@ -1,0 +1,30 @@
+install prettier then create the file .prettierrc and add some additional code to the .prettierrx file
+so that the .prettierrc will format the code in the correct format
+
+Secondly, create the .prettierignore file for to tell prettier that don't change my these files settings
+for instance: .env, node_modules and more.
+
+Note: 
+Bhaiya jab bhi database k sath khelo to do kam krna lazmi hn
+aik to y k ap ya to code ko wrap karo try catch m ya phir promises ka use karo 
+or second y k ap aync and await ka use karo q ka y hmn load krwani prti h 
+
+dotenv
+agr dotenv ko use kr rahy hn hm or hm chahty hn k jese hee hm code run krn to .env file load hojae
+to is lie hm y krn gy k package.json file m "dev" ya "start" m hm -r  dotenv/config --experimental-json-modules ko add kr dn gy
+
+middleware hm do or libraries use krn gy cookie-parser and cors
+cors hmn settings krny deta hy jitny bhi hamare cross origin resources hn
+
+mongoose-aggregate-paginate-v2
+
+Cryptography modules
+1. bcrypt
+2. jsonwebtoken
+
+install these for files uploading
+npm i cloudinary // multer sy file jb hm ny local server p upload krwae to ab hm cloudinary ka use kr
+k us ko cloudinary p save store krwa dn gy
+npm i multer // is k through hm file upload krwaen gy or us ko local server p temporary upload krwa dn gy
+
+Note : multer hamara as a middleware kam kr raha hy
